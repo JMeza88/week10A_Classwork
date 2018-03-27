@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Wars!</title>
+  <link href="./styles/reset.css" type="text/css" rel="stylesheet" />
+  <link href="./styles/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>STAR WARS CHARACTERS</h1>
+  </header>
+  <main>
+    <form id="charform">
+      <input type="number" name="charnum" id="charnum"/>
+      <input type="submit" value="Find That Character"/>
+    </form>
+    <div class="character-info">
+      <h2>Information about <span class="name"></span></h2>
+      <p><span class="name"></span> was born in <span class="year"></span>. They have <span class="eye_color"></span> eyes and <span class="hair_color"></span> hair. They have appeared in <span class="movie_count"></span> Star Wars films.</p>
+    </div>
+  </main>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="./scripts/main.js" /></script>
+
+</body>
+</html>
